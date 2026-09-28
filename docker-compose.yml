@@ -1,0 +1,15 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: ohada_db
+    environment:
+      POSTGRES_USER: ohada_user
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ohada
+    ports:
+      - "5432:5432"
+    volumes:
+      - ohada_data:/var/lib/postgresql/data
+
+volumes:
+  ohada_data:

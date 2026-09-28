@@ -1,0 +1,8 @@
+##----EXTRACTEUR PDF---------
+docling 
+python-dotenv 
+logfire 
+mistralai
+pgsycopg["binary"]
+pgvector 
+flashrank 
