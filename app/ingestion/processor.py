@@ -1,19 +1,10 @@
 import logfire
-from app.ingestion.loaders.parser_pdf import parser_pdf
+from app.ingestion.loaders.pdf_parser import parser_pdf
 from app.ingestion.chunking.splitter import ArticleChunker
 
 chunker = ArticleChunker()
 
-FICHIERS = [
-    {"chemin":"DATA/Societe_commerciale/DROIT_SOCIETES_COMMERCIALES_2014_REVISION.pdf",
-     "acte":"droit_societes_commerciales","version":"2014","est_en_vigueur":True},
-    {"chemin":"DATA/Societe_commerciale/DROIT_SOCIETES_COMMERCIALES_1997_ABROGE.pdf",
-      "acte":"droit_societes_commerciales","version":"1997","est_en_vigueur":False},
-    {"chemin":"DATA/Commerce_general/DROIT_COMMERCE_GENERAL_1997_ABROGE.pdf",
-       "acte":"droit_commerce_general","version":"1997","est_en_vigueur":False},
-    {"chemin":"DATA/Commerce_general/DROIT_COMMERCE_GENERAL_2010_REVISION.pdf",
-     "acte":"droit_commerce_general","version":"2010","est_en_vigueur":True}  
-]
+
 def process_chunk(fichiers):
     with logfire.span("Ingestion complète", nb_fichiers=len(fichiers)):
         tous_les_chunks = []

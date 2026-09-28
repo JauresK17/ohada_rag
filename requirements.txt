@@ -1,8 +1,14 @@
-##----EXTRACTEUR PDF---------
-docling 
-python-dotenv 
-logfire 
+##---- CONFIG / OBSERVABILITÉ ----
+python-dotenv
+logfire
+
+##---- EXTRACTION PDF ----
+pymupdf
+
+##---- EMBEDDINGS / RERANKING ----
 mistralai
-pgsycopg["binary"]
-pgvector 
-flashrank 
+flashrank
+
+##---- BASE DE DONNÉES ----
+psycopg[binary]
+pgvector

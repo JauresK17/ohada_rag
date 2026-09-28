@@ -1,5 +1,5 @@
-from app.services.search import fusion_rrf
-from app.services.reranking import rerank_documents
+from app.retrieval.search import fusion_rrf
+from app.retrieval.reranking import rerank_documents
 import logfire 
 logfire.configure()
 query = "responsabilité limitée transformation société"

@@ -1,6 +1,6 @@
 from app.services.embeddings import embed_query
 from pgvector.psycopg import register_vector
-from app.db_connection import get_connection 
+from app.db.connection import get_connection 
 import logfire 
 
 

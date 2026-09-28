@@ -1,7 +1,8 @@
 import logfire 
-from app.services.processor import process_chunk , FICHIERS
+from app.ingestion.processor import process_chunk
+from app.ingestion.sources import FICHIERS
 from app.services.embeddings import embed_texte
-from app.services.storage import creer_actes , inserer_chunk,vider_table 
+from app.db.repository import creer_actes , inserer_chunk,vider_table 
 
 
 def run_ingestion():

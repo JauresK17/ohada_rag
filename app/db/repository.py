@@ -1,7 +1,7 @@
 import logfire 
-from app.db_connection import get_connection
+from app.db.connection import get_connection
 from pgvector.psycopg import register_vector
-from app.services.processor import FICHIERS
+from app.ingestion.sources import FICHIERS
 
 def creer_actes():
     """

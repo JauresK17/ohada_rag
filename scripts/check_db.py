@@ -1,8 +1,9 @@
 import logfire
-from app.db_connection import get_connection
-from app.services.processor import FICHIERS, process_chunk   # adapte le nom si besoin
+from app.db.connection import get_connection
+from app.ingestion.processor import process_chunk
+from app.ingestion.sources import FICHIERS
 from app.services.embeddings import embed_texte
-from app.services.storage import charger_correspondance, inserer_chunk
+from app.db.repository import charger_correspondance, inserer_chunk
 
 logfire.configure()
 
@@ -14,7 +15,7 @@ chunks = embed_texte(chunks)
 correspondance = charger_correspondance()
 print("Correspondance chargée :", correspondance)
 
-# 3. Insérer seulement les 5 premiers chunks pour tester
+# 3. Insérer les chunks
 inserer_chunk(chunks, correspondance)
 
 # 4. Vérifier côté base
