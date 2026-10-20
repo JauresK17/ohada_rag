@@ -17,5 +17,6 @@ openai
 langgraph 
 ragas==0.2.14
 langchain_mistralai
+langchain_openai
 fastapi 
 uvicorn 
