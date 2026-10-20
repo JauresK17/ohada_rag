@@ -1,38 +1,9 @@
-from app.ingestion.processor import process_chunk
-from app.ingestion.sources import FICHIERS
-from app.services.embeddings import embed_texte
-import logfire 
-logfire.configure()
-tous_les_chunk = process_chunk(FICHIERS)
-chunk_final = embed_texte(tous_les_chunk)
-
-
-
-#print(chunk_final[0])
-print("--------------")
-
-#print(chunk_final[1])
-
-print("-----------------")
-
-print(len(chunk_final[100]["embedding"]))
-
-print("-------------------")
-
-#print(chunk_final[2000])
-"""
-def taille_chunks(chunks):
-    taille_max = 0 
-    article=""
-    for chunk in chunks :
-        taille = len(chunk["texte"])
-        if taille_max < taille:
-            taille_max = taille 
-            article = chunk["article"]
-    return taille_max ,article
-
-
-
-taille_max ,article= taille_chunks(chunks)
-print(taille_max , article)
-"""
+import json
+with open("resultats_collecte.json", encoding="utf-8") as f:
+    data = json.load(f)
+print("Total:", len(data))
+# compter ceux qui ont échoué (réponse vide ou champ erreur)
+echecs = [d for d in data if d.get("erreur") or d["response"] == ""]
+print("Échecs:", len(echecs))
+for d in echecs:
+    print("  -", d["user_input"][:60])

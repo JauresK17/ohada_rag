@@ -1,0 +1,497 @@
+[
+{
+"question": "Selon l'article 2 de l'Acte uniforme sur le droit commercial général, qui est commerçant ?",
+"ground_truth": "Est commerçant celui qui fait de l'accomplissement d'actes de commerce par nature sa profession.",
+"article_source": "Article 2",
+"acte": "commercial_general",
+"type": "definition"
+},
+{
+"question": "Qu'est-ce qu'un acte de commerce par nature  ?",
+"ground_truth": "L'acte de commerce par nature est celui par lequel une personne s'entremet dans la circulation des biens qu'elle produit ou achète ou par lequel elle fournit des prestations de service avec l'intention d'en tirer un profit pécuniaire.",
+"article_source": "Article 3",
+"acte": "commercial_general",
+"type": "definition"
+},
+{
+"question": "Quels sont les principaux actes considérés comme des actes de commerce par nature ?",
+"ground_truth": "Sont notamment des actes de commerce par nature : l'achat de biens meubles ou immeubles en vue de leur revente ; les opérations de banque, de bourse, de change, de courtage, d'assurance et de transit ; les contrats entre commerçants pour les besoins de leur commerce ; l'exploitation industrielle des mines, carrières et gisements de ressources naturelles ; les opérations de location de meubles ; les opérations de manufacture, de transport et de télécommunication ; les opérations des intermédiaires de commerce telles que la commission, le courtage et l'agence ainsi que certaines opérations d'intermédiation portant notamment sur les immeubles, fonds de commerce, actions ou parts de société ; et les actes effectués par les sociétés commerciales.",
+"article_source": "Article 3",
+"acte": "commercial_general",
+"type": "article_cible"
+},
+{
+"question": "Comment les actes de commerce se prouvent-ils à l'égard des commerçants ?",
+"ground_truth": "Les actes de commerce se prouvent par tous moyens, même par voie électronique, à l'égard des commerçants.",
+"article_source": "Article 5",
+"acte": "commercial_general",
+"type": "procedure"
+},
+{
+"question": "Que prévoit l'article 5 concernant les livres de commerce et les états financiers de synthèse comme moyens de preuve ?",
+"ground_truth": "Les livres de commerce tenus en application de l'Acte uniforme sont admis par le juge pour constituer une preuve dans les conditions prévues par l'article 5. Les livres de commerce et les états financiers de synthèse constituent des moyens de preuve. Au cours d'une contestation, leur représentation peut être ordonnée par le juge, même d'office, afin d'en extraire ce qui concerne le litige.",
+"article_source": "Article 5",
+"acte": "commercial_general",
+"type": "obligation"
+},
+{
+"question": "Un mineur peut-il avoir la qualité de commerçant selon l'Acte uniforme sur le droit commercial général ?",
+"ground_truth": "Le mineur, sauf s'il est émancipé, ne peut avoir la qualité de commerçant ni effectuer des actes de commerce.",
+"article_source": "Article 7",
+"acte": "commercial_general",
+"type": "obligation"
+},
+{
+"question": "Dans quelles conditions le conjoint d'un commerçant acquiert il la qualité de commerçant ?",
+"ground_truth": "Le conjoint du commerçant n'a la qualité de commerçant que s'il accomplit les actes visés aux articles 3 et 4 de l'Acte uniforme à titre de profession et séparément de ceux de l'autre conjoint.",
+"article_source": "Article 7",
+"acte": "commercial_general",
+"type": "procedure"
+},
+{
+"question": "Quelles sont les conséquences d'une incompatibilité sur les actes accomplis par une personne exerçant une activité commerciale ?",
+"ground_truth": "Les actes accomplis par une personne en situation d'incompatibilité restent valables à l'égard des tiers de bonne foi. Ces tiers peuvent, s'ils le souhaitent, se prévaloir des actes accomplis par cette personne, mais celle-ci ne peut pas s'en prévaloir.",
+"article_source": "Article 8",
+"acte": "commercial_general",
+"type": "obligation"
+},
+{
+"question": "Quelles interdictions empêchent une personne d'exercer une activité commerciale selon l'article 10 ?",
+"ground_truth": "Une personne ne peut exercer une activité commerciale, directement ou par personne interposée, lorsqu'elle fait l'objet d'une interdiction générale, définitive ou temporaire, prononcée par une juridiction d'un État partie ; d'une interdiction prononcée par une juridiction professionnelle, laquelle ne s'applique alors qu'à l'activité commerciale considérée ; ou d'une interdiction résultant d'une condamnation définitive à une peine privative de liberté pour un crime de droit commun, ou à une peine d'au moins trois mois d'emprisonnement non assortie de sursis pour un délit contre les biens ou une infraction en matière économique ou financière.",
+"article_source": "Article 10",
+"acte": "commercial_general",
+"type": "article_cible"
+},
+{
+"question": "Dans quelles conditions une interdiction temporaire de plus de cinq ans ou une interdiction définitive peut-elle être levée ?",
+"ground_truth": "Une interdiction temporaire d'une durée supérieure à cinq ans, ainsi qu'une interdiction définitive, peuvent être levées à la requête de l'interdit par la juridiction qui a prononcé l'interdiction. La requête n'est recevable qu'après l'expiration d'un délai de cinq ans à compter du jour où la décision prononçant l'interdiction est devenue définitive. L'interdiction prend également fin par la réhabilitation dans les conditions et formes prévues par l'Acte uniforme portant organisation des procédures collectives d'apurement du passif.",
+"article_source": "Article 11",
+"acte": "commercial_general",
+"type": "procedure"
+},
+{
+"question": "Quel est le régime des actes accomplis par une personne interdite d'exercer le commerce à l'égard des tiers de bonne foi ?",
+"ground_truth": "Sans préjudice d'autres sanctions, les actes accomplis par un interdit sont inopposables aux tiers de bonne foi. La bonne foi est toujours présumée. Ces actes restent toutefois opposables à l'interdit.",
+"article_source": "Article 12",
+"acte": "commercial_general",
+"type": "obligation"
+},
+{
+"question": "Quelle obligation comptable générale incombe à tout commerçant ?",
+"ground_truth": "Tout commerçant, personne physique ou morale, doit tenir tous les livres de commerce conformément aux dispositions de l'Acte uniforme relatif à l'organisation et à l'harmonisation des comptabilités des entreprises. Il doit également respecter, selon le cas, les dispositions prévues par cet Acte uniforme et par l'Acte uniforme relatif au droit des sociétés commerciales et du groupement d'intérêt économique.",
+"article_source": "Article 13",
+"acte": "commercial_general",
+"type": "obligation"
+},
+{
+"question": "Quelle est la durée de prescription des obligations nées à l'occasion du commerce entre commerçants ou entre commerçants et non-commerçants ?",
+"ground_truth": "Les obligations nées à l'occasion de leur commerce entre commerçants, ou entre commerçants et non-commerçants, se prescrivent par cinq ans lorsqu'elles ne sont pas soumises à des prescriptions plus courtes. Cette prescription extinctive est soumise à la loi régissant le droit qu'elle affecte.",
+"article_source": "Article 16",
+"acte": "commercial_general",
+"type": "procedure"
+},
+{
+"question": "À partir de quel moment court le délai de prescription selon l'article 17 ?",
+"ground_truth": "Le délai de prescription court à compter du jour où le titulaire du droit d'agir a connu ou aurait dû connaître les faits lui permettant d'exercer son action.",
+"article_source": "Article 17",
+"acte": "commercial_general",
+"type": "article_cible"
+},
+{
+"question": "Quelle est la différence entre la suspension et l'interruption de la prescription selon les articles 20 et 22 ?",
+"ground_truth": "La suspension de la prescription arrête temporairement son cours sans effacer le délai déjà couru. L'interruption de la prescription efface le délai de prescription acquis et fait courir un nouveau délai de même durée que l'ancien.",
+"article_source": "Articles 20 et 22",
+"acte": "commercial_general",
+"type": "multi_articles"
+},
+{
+"question": "Dans quelles situations la prescription est-elle suspendue en cas de médiation ou de conciliation ?",
+"ground_truth": "Après la survenance d'un litige, la prescription est suspendue à compter du jour où les parties conviennent de recourir à la médiation ou à la conciliation ou, à défaut d'accord écrit, à compter du jour de la première réunion de médiation ou de conciliation. Le délai recommence à courir, pour une durée qui ne peut être inférieure à six mois, à compter de la date à laquelle l'une des parties ou les deux, ou le médiateur ou le conciliateur, déclarent que la médiation ou la conciliation est terminée.",
+"article_source": "Article 21",
+"acte": "commercial_general",
+"type": "procedure"
+},
+{
+"question": "Quels actes interrompent la prescription selon l'article 23 ?",
+"ground_truth": "La reconnaissance par le débiteur du droit de celui contre lequel il prescrivait interrompt la prescription. La demande en justice, même en référé, interrompt également le délai de prescription et le délai de forclusion. Il en est de même lorsque la demande est portée devant une juridiction incompétente ou lorsque l'acte de saisine est annulé en raison d'un vice de procédure. L'interruption produit ses effets jusqu'à l'extinction de l'instance, mais elle est non avenue en cas de désistement du demandeur, de péremption de l'instance ou de rejet définitif de la demande.",
+"article_source": "Article 23",
+"acte": "commercial_general",
+"type": "article_cible"
+},
+{
+"question": "Qu'est-ce qu'un entreprenant au sens de l'article 30 ?",
+"ground_truth": "L'entreprenant est un entrepreneur individuel, personne physique qui, sur simple déclaration prévue par l'Acte uniforme, exerce une activité professionnelle civile, commerciale, artisanale ou agricole.",
+"article_source": "Article 30",
+"acte": "commercial_general",
+"type": "definition"
+},
+{
+"question": "Quelles obligations comptables particulières sont imposées à l'entreprenant par l'article 31 ?",
+"ground_truth": "L'entreprenant doit établir au jour le jour un livre mentionnant chronologiquement l'origine et le montant de ses ressources, en distinguant les règlements en espèces des autres modes de règlement, ainsi que la destination et le montant de ses emplois. Ce livre doit être conservé pendant cinq ans au moins.",
+"article_source": "Article 31",
+"acte": "commercial_general",
+"type": "obligation"
+},
+{
+"question": "Quelles sont les principales fonctions du Registre du Commerce et du Crédit Mobilier prévues à l'article 34 ?",
+"ground_truth": "Le Registre du Commerce et du Crédit Mobilier permet notamment aux assujettis de demander leur immatriculation et d'obtenir leur numéro d'immatriculation, aux entreprenants de déclarer leur activité et d'obtenir leur numéro de déclaration d'activité, aux assujettis et aux tiers d'accéder aux informations conservées, de satisfaire aux exigences de sécurité, de célérité, de transparence et de loyauté nécessaires au développement des activités économiques, et de recevoir les inscriptions relatives au contrat de crédit-bail et aux sûretés prévues par les textes applicables.",
+"article_source": "Article 34",
+"acte": "commercial_general",
+"type": "article_cible"
+},
+{
+"question": "Quelles personnes ou entités font notamment l'objet d'une demande d'immatriculation au RCCM selon l'article 35 ?",
+"ground_truth": "Le RCCM reçoit notamment les demandes d'immatriculation des personnes physiques ayant la qualité de commerçant, des sociétés commerciales, des sociétés civiles par leur forme et commerciales par leur objet, des groupements d'intérêt économique, des succursales visées par l'Acte uniforme relatif au droit des sociétés commerciales et du GIE, des groupements dotés de la personnalité juridique soumis à l'immatriculation, des personnes physiques exerçant une activité professionnelle soumise à immatriculation et des établissements publics ayant une activité économique et bénéficiant de l'autonomie juridique et financière.",
+"article_source": "Article 35",
+"acte": "commercial_general",
+"type": "article_cible"
+},
+{
+"question": "Comment est organisé le RCCM selon l'article 36 ?",
+"ground_truth": "Le RCCM est tenu par le greffe de la juridiction compétente ou par l'organe compétent dans l'État partie, sous la surveillance du président de cette juridiction, du juge délégué à cet effet ou de l'autorité compétente. Un Fichier National centralise les renseignements consignés dans chaque RCCM et un Fichier Régional, tenu auprès de la Cour Commune de Justice et d'Arbitrage, centralise les renseignements consignés dans chaque Fichier National. Les informations figurant dans les formulaires, registres et répertoires du RCCM sont destinées à l'information du public.",
+"article_source": "Article 36",
+"acte": "commercial_general",
+"type": "multi_articles"
+},
+{
+"question": "Quelles formalités sont prévues pour une déclaration d'entreprenant ou une demande d'immatriculation au RCCM ?",
+"ground_truth": "Toute déclaration d'entreprenant ou demande d'immatriculation est établie sur le formulaire mis à disposition par le greffe ou l'organe compétent, sauf en cas d'utilisation de moyens électroniques. La demande est signée par le déclarant, le demandeur ou son mandataire, lequel doit justifier de son identité et, sauf lorsqu'il est avocat, professionnel agréé, huissier, notaire ou syndic, être muni d'une procuration signée. Le greffier ou responsable compétent délivre immédiatement un accusé d'enregistrement comportant notamment la date, la désignation de la formalité et, selon le cas, le numéro de déclaration d'activité ou d'immatriculation.",
+"article_source": "Article 39",
+"acte": "commercial_general",
+"type": "procedure"
+},
+{
+"question": "Dans quel délai le greffier doit-il transmettre une copie du formulaire et du dossier individuel au Fichier National selon l'article 39 ?",
+"ground_truth": "Une copie du formulaire avec le dossier individuel constitué des pièces certifiées conformes est adressée par le greffier ou le responsable de l'organe compétent au Fichier National dans un délai d'un mois. Le Fichier National transmet, dans le même délai, une copie du formulaire et un extrait du dossier au Fichier Régional.",
+"article_source": "Article 39",
+"acte": "commercial_general",
+"type": "procedure"
+},
+{
+"question": "À quelles sociétés l'Acte uniforme relatif au droit des sociétés commerciales et du GIE s'applique-t-il selon l'article 1 ?",
+"ground_truth": "Toute société commerciale, y compris celle dans laquelle un État ou une personne morale de droit public est associé, dont le siège social est situé sur le territoire d'un État partie, est soumise aux dispositions de l'Acte uniforme. Tout groupement d'intérêt économique est également soumis à cet Acte uniforme. Les sociétés commerciales et les groupements d'intérêt économique demeurent en outre soumis aux lois non contraires à l'Acte uniforme applicables dans l'État partie où se situe leur siège social.",
+"article_source": "Article 1",
+"acte": "societes_commerciales",
+"type": "article_cible"
+},
+{
+"question": "Les statuts d'une société commerciale peuvent-ils déroger librement aux dispositions de l'Acte uniforme relatif au droit des sociétés commerciales et du GIE ?",
+"ground_truth": "Non. Les statuts ne peuvent déroger aux dispositions de l'Acte uniforme que dans les cas où celui-ci autorise expressément l'associé unique ou les associés à substituer des clauses statutaires aux dispositions de l'Acte uniforme ou à les compléter par des clauses statutaires. Toute clause statutaire contraire à une disposition de l'Acte uniforme est réputée non écrite.",
+"article_source": "Article 2",
+"acte": "societes_commerciales",
+"type": "obligation"
+},
+{
+"question": "Quels sujets peuvent notamment être organisés par des conventions extra-statutaires entre associés ?",
+"ground_truth": "Sous réserve du respect des dispositions de l'Acte uniforme auxquelles il ne peut être dérogé et des clauses statutaires, les associés peuvent conclure des conventions extra-statutaires pour organiser notamment les relations entre associés, la composition des organes sociaux, la conduite des affaires de la société, l'accès au capital social et la transmission des titres sociaux.",
+"article_source": "Article 2-1",
+"acte": "societes_commerciales",
+"type": "article_cible"
+},
+{
+"question": "Comment l'Acte uniforme définit-il la société commerciale ?",
+"ground_truth": "La société commerciale est créée par deux ou plusieurs personnes qui conviennent, par un contrat, d'affecter à une activité des biens en numéraire ou en nature, ou de l'industrie, dans le but de partager le bénéfice ou de profiter de l'économie qui peut en résulter. Les associés s'engagent à contribuer aux pertes dans les conditions prévues par l'Acte uniforme. La société commerciale est créée dans l'intérêt commun des associés.",
+"article_source": "Article 4",
+"acte": "societes_commerciales",
+"type": "definition"
+},
+{
+"question": "Une société commerciale peut-elle être créée par une seule personne ?",
+"ground_truth": "Oui. Dans les cas prévus par l'Acte uniforme, une société commerciale peut être créée par une seule personne, dénommée « associé unique », par un acte écrit.",
+"article_source": "Article 5",
+"acte": "societes_commerciales",
+"type": "procedure"
+},
+{
+"question": "Comment le caractère commercial d'une société est-il déterminé et quelles formes sont commerciales par leur forme ?",
+"ground_truth": "Le caractère commercial d'une société est déterminé par sa forme ou par son objet. Sont commerciales à raison de leur forme et quel que soit leur objet les sociétés en nom collectif, les sociétés en commandite simple, les sociétés à responsabilité limitée, les sociétés anonymes et les sociétés par actions simplifiées.",
+"article_source": "Article 6",
+"acte": "societes_commerciales",
+"type": "article_cible"
+},
+{
+"question": "Dans quel cas un mineur ou un majeur incapable ne peut-il pas être associé d'une société ?",
+"ground_truth": "Les mineurs et les majeurs incapables ne peuvent être associés d'une société dans laquelle ils seraient tenus des dettes sociales au-delà de leurs apports.",
+"article_source": "Article 8",
+"acte": "societes_commerciales",
+"type": "obligation"
+},
+{
+"question": "Quelle règle l'article 9 pose-t-il concernant les époux associés d'une société ?",
+"ground_truth": "Des époux ne peuvent être associés d'une société dans laquelle ils seraient tenus des dettes sociales indéfiniment ou solidairement.",
+"article_source": "Article 9",
+"acte": "societes_commerciales",
+"type": "obligation"
+},
+{
+"question": "Sous quelle forme les statuts d'une société sont-ils établis selon l'article 10 ?",
+"ground_truth": "Sauf dispositions nationales contraires, les statuts sont établis par acte notarié ou par tout acte offrant des garanties d'authenticité dans l'État du siège de la société, déposé avec reconnaissance d'écritures et de signatures par toutes les parties au rang des minutes d'un notaire. Ils ne peuvent être modifiés que dans la même forme.",
+"article_source": "Article 10",
+"acte": "societes_commerciales",
+"type": "procedure"
+},
+{
+"question": "Quelles mentions obligatoires les statuts doivent-ils notamment contenir ?",
+"ground_truth": "Les statuts mentionnent notamment la forme de la société, sa dénomination et éventuellement son sigle, la nature et le domaine de son activité constituant son objet social, son siège social, sa durée, l'identité des apporteurs en numéraire avec le montant des apports et les titres remis en contrepartie, l'identité des apporteurs en nature ainsi que la nature et l'évaluation de leurs apports et les titres remis en contrepartie, l'identité des apporteurs en industrie ainsi que la nature et la durée des prestations et les titres remis en contrepartie, l'identité des bénéficiaires d'avantages particuliers et la nature de ceux-ci, le montant du capital social, le nombre et la valeur des titres sociaux émis, les clauses relatives à la répartition du résultat, à la constitution des réserves et à la répartition du boni de liquidation, ainsi que les modalités de fonctionnement de la société.",
+"article_source": "Article 13",
+"acte": "societes_commerciales",
+"type": "article_cible"
+},
+{
+"question": "Quelles informations doivent accompagner la dénomination sociale sur les documents destinés aux tiers ?",
+"ground_truth": "La dénomination sociale doit figurer sur tous les actes et documents émanant de la société et destinés aux tiers, notamment les lettres, factures, annonces et publications diverses. Elle doit être précédée ou suivie immédiatement, en caractères lisibles, de l'indication de la forme de la société, du montant de son capital social, de l'adresse de son siège social et de la mention de son numéro d'immatriculation au registre du commerce et du crédit mobilier.",
+"article_source": "Article 17",
+"acte": "societes_commerciales",
+"type": "obligation"
+},
+{
+"question": "Quelles exigences l'Acte uniforme impose-t-il concernant l'objet social ?",
+"ground_truth": "Toute société a un objet constitué par l'activité qu'elle entreprend et qui doit être déterminée et décrite dans ses statuts. Toute société doit avoir un objet licite. Lorsque l'activité exercée est réglementée, la société doit se conformer aux règles particulières auxquelles cette activité est soumise.",
+"article_source": "Articles 19, 20 et 21",
+"acte": "societes_commerciales",
+"type": "multi_articles"
+},
+{
+"question": "Comment le siège social d'une société est-il fixé et quelles conditions doit-il respecter ?",
+"ground_truth": "Toute société doit avoir un siège social mentionné dans ses statuts. Le siège social est fixé, au choix des associés, soit au lieu du principal établissement de la société, soit à son centre de direction administrative et financière. Il ne peut pas être constitué uniquement par une domiciliation à une boîte postale et doit être localisé par une adresse ou une indication géographique suffisamment précise.",
+"article_source": "Articles 23, 24 et 25",
+"acte": "societes_commerciales",
+"type": "multi_articles"
+},
+{
+"question": "Que se passe-t-il lorsque le siège réel d'une société est situé dans un lieu différent de son siège statutaire ?",
+"ground_truth": "Les tiers peuvent se prévaloir du siège statutaire, mais celui-ci n'est pas opposable à la société si le siège réel est situé dans un autre lieu.",
+"article_source": "Article 26",
+"acte": "societes_commerciales",
+"type": "article_cible"
+},
+{
+"question": "Quelle est la durée maximale d'une société et quand cette durée commence-t-elle à courir ?",
+"ground_truth": "La durée de la société doit être mentionnée dans les statuts et ne peut excéder quatre-vingt-dix-neuf ans. Le point de départ de cette durée est la date de l'immatriculation au registre du commerce et du crédit mobilier, sauf disposition contraire de l'Acte uniforme.",
+"article_source": "Articles 28 et 29",
+"acte": "societes_commerciales",
+"type": "multi_articles"
+},
+{
+"question": "Que se passe-t-il à l'arrivée du terme de la société et dans quelles conditions sa durée peut-elle être prorogée ?",
+"ground_truth": "L'arrivée du terme entraîne la dissolution de plein droit de la société, sauf si sa prorogation a été décidée dans les conditions prévues par l'Acte uniforme. La durée de la société peut être prorogée une ou plusieurs fois et la prorogation est décidée, pour chaque forme de société, dans les conditions prévues pour la modification des statuts.",
+"article_source": "Articles 30, 32 et 33",
+"acte": "societes_commerciales",
+"type": "multi_articles"
+},
+{
+"question": "Quand les associés doivent-ils être consultés pour décider de la prorogation de la société ?",
+"ground_truth": "Les associés doivent être consultés au moins un an avant la date d'expiration de la durée de la société afin de décider si cette durée doit être prorogée.",
+"article_source": "Article 35",
+"acte": "societes_commerciales",
+"type": "procedure"
+},
+{
+"question": "Que peut faire un associé si la consultation relative à la prorogation n'a pas été provoquée ?",
+"ground_truth": "À défaut de consultation, tout associé peut demander à la juridiction compétente dans le ressort de laquelle est situé le siège social, statuant à bref délai, la désignation d'un mandataire ad hoc chargé de provoquer la consultation prévue pour décider de la prorogation.",
+"article_source": "Article 36",
+"acte": "societes_commerciales",
+"type": "procedure"
+},
+{
+"question": "Quels sont les trois types d'apports qu'un associé peut effectuer dans une société ?",
+"ground_truth": "Un associé peut apporter de l'argent par un apport en numéraire, des droits portant sur des biens mobiliers ou immobiliers, corporels ou incorporels, par un apport en nature, ou des connaissances techniques ou professionnelles ou des services par un apport en industrie. Tout autre apport est interdit.",
+"article_source": "Article 40",
+"acte": "societes_commerciales",
+"type": "definition"
+},
+{
+"question": "Comment sont réalisés les apports en numéraire et quand doivent-ils être libérés ?",
+"ground_truth": "Les apports en numéraire sont réalisés par le transfert à la société de la propriété des sommes d'argent que l'associé s'est engagé à lui apporter. Sauf disposition contraire de l'Acte uniforme, ils sont libérés intégralement lors de la constitution de la société.",
+"article_source": "Article 41",
+"acte": "societes_commerciales",
+"type": "procedure"
+},
+{
+"question": "Quelle conséquence le retard dans le versement d'un apport en numéraire entraîne-t-il ?",
+"ground_truth": "En cas de retard dans le versement, les sommes restant dues à la société portent de plein droit intérêt au taux légal à compter du jour où le versement devait être effectué, sans préjudice de dommages et intérêts, s'il y a lieu.",
+"article_source": "Article 43",
+"acte": "societes_commerciales",
+"type": "obligation"
+},
+{
+"question": "Comment sont réalisés les apports en nature et quand sont-ils libérés ?",
+"ground_truth": "Les apports en nature sont réalisés par le transfert des droits réels ou personnels correspondant aux biens apportés et par la mise à la disposition effective de la société des biens sur lesquels portent ces droits. Ils sont libérés intégralement lors de la constitution de la société.",
+"article_source": "Article 45",
+"acte": "societes_commerciales",
+"type": "procedure"
+},
+{
+"question": "Qui évalue les apports en nature et dans quels cas cette évaluation est-elle contrôlée ?",
+"ground_truth": "Les associés évaluent les apports en nature. Dans les cas prévus par l'Acte uniforme, cette évaluation est contrôlée par un commissaire aux apports.",
+"article_source": "Article 49",
+"acte": "societes_commerciales",
+"type": "procedure"
+},
+{
+"question": "Les apports en industrie sont-ils autorisés dans les sociétés anonymes ?",
+"ground_truth": "Non. Les apports en industrie sont interdits dans les sociétés anonymes.",
+"article_source": "Article 50-1",
+"acte": "societes_commerciales",
+"type": "obligation"
+},
+{
+"question": "Quels droits les titres sociaux résultant d'un apport en industrie confèrent-ils et quelles limites leur sont applicables ?",
+"ground_truth": "Les apports en industrie ne concourent pas à la formation du capital social mais donnent lieu à l'attribution de titres sociaux ouvrant droit au vote et au partage des bénéfices et de l'actif net, avec obligation de contribuer aux pertes. Les droits de vote attachés à ces titres ne peuvent dépasser 25 % de l'ensemble des droits de vote. La part totale attachée à ces titres ne peut excéder 25 % des bénéfices, de l'actif net et des pertes de la société.",
+"article_source": "Article 50-3",
+"acte": "societes_commerciales",
+"type": "article_cible"
+},
+{
+"question": "Comment sont dénommés les titres sociaux émis par une société selon sa forme ?",
+"ground_truth": "La société émet des titres sociaux en contrepartie des apports faits par les associés. Ces titres représentent les droits des associés et sont dénommés actions dans les sociétés par actions et parts sociales dans les autres sociétés.",
+"article_source": "Article 51",
+"acte": "societes_commerciales",
+"type": "definition"
+},
+{
+"question": "Quels droits et obligations les titres sociaux confèrent-ils à leur titulaire ?",
+"ground_truth": "Les titres sociaux confèrent à leur titulaire un droit sur les bénéfices réalisés par la société lorsque leur distribution a été décidée, un droit sur les actifs nets de la société lors de leur répartition à la dissolution ou à l'occasion d'une réduction du capital, le cas échéant l'obligation de contribuer aux pertes sociales dans les conditions prévues pour chaque forme de société, ainsi que le droit de participer aux votes des décisions collectives des associés, sauf disposition contraire de l'Acte uniforme pour certaines catégories de titres sociaux.",
+"article_source": "Article 53",
+"acte": "societes_commerciales",
+"type": "article_cible"
+},
+{
+"question": "Selon quel principe les droits et obligations des associés sont-ils répartis, sous réserve des exceptions prévues par l'Acte uniforme ?",
+"ground_truth": "Sauf clause contraire des statuts ou dispositions contraires de l'Acte uniforme, les droits et obligations de chaque associé visés à l'article 53 sont proportionnels à ses apports, qu'ils soient effectués lors de la constitution de la société ou au cours de la vie sociale. Les clauses attribuant à un associé la totalité du profit, l'exonérant de la totalité des pertes, excluant totalement un associé du profit ou mettant à sa charge la totalité des pertes sont réputées non écrites.",
+"article_source": "Article 54",
+"acte": "societes_commerciales",
+"type": "obligation"
+},
+{
+"question": "Quelle différence l'article 57 établit-il entre les parts sociales et les actions ?",
+"ground_truth": "Les parts sociales sont cessibles, tandis que les actions sont cessibles ou négociables.",
+"article_source": "Article 57",
+"acte": "societes_commerciales",
+"type": "article_cible"
+},
+{
+"question": "Quelles sont les conséquences de l'émission de titres négociables par une société qui n'est pas une société par actions ?",
+"ground_truth": "L'émission de titres négociables est interdite pour les sociétés autres que les sociétés par actions. Ces sociétés ont également interdiction de garantir une émission de titres négociables. Sont nuls tous contrats conclus, titres émis ou garanties accordées en violation de ces dispositions.",
+"article_source": "Article 58",
+"acte": "societes_commerciales",
+"type": "obligation"
+},
+{
+"question": "Comment la valeur des droits sociaux est-elle déterminée lorsqu'il n'existe pas d'accord amiable entre les parties ?",
+"ground_truth": "Dans les cas où l'Acte uniforme prévoit la cession des titres sociaux d'un associé ou leur rachat par la société, la valeur de ces droits est déterminée, à défaut d'accord amiable entre les parties, par un expert désigné par les parties ou, à défaut d'accord entre elles, par décision de la juridiction compétente statuant à bref délai.",
+"article_source": "Article 59",
+"acte": "societes_commerciales",
+"type": "procedure"
+},
+{
+"question": "La détention de tous les titres sociaux par un seul associé entraîne-t-elle toujours la dissolution de plein droit de la société ?",
+"ground_truth": "Non. Dans les sociétés dont la forme unipersonnelle n'est pas autorisée par l'Acte uniforme, la détention par un seul associé de tous les titres sociaux n'entraîne pas la dissolution de plein droit. Tout intéressé peut demander la dissolution si la situation n'a pas été régularisée dans un délai d'un an. La juridiction compétente peut accorder à la société un délai maximal de six mois pour régulariser la situation et ne peut prononcer la dissolution si la régularisation a eu lieu au jour où elle statue sur le fond.",
+"article_source": "Article 60",
+"acte": "societes_commerciales",
+"type": "procedure"
+},
+{
+"question": "Quelles règles l'Acte uniforme fixe-t-il concernant l'existence et le montant du capital social ?",
+"ground_truth": "Toute société doit avoir un capital social indiqué dans ses statuts. Le montant du capital social est librement déterminé par les associés, mais l'Acte uniforme peut fixer un capital social minimum en raison de la forme ou de l'objet de la société. Si le capital d'une société en cours de formation n'atteint pas le minimum fixé, la société ne peut être valablement constituée.",
+"article_source": "Articles 61, 65 et 66",
+"acte": "societes_commerciales",
+"type": "multi_articles"
+},
+{
+    "question": "Qu'est-ce qui caractérise une société commerciale en raison de sa forme ?",
+    "ground_truth": "Une société commerciale est commerciale en raison de sa forme, indépendamment de son objet. Les sociétés commerciales par la forme comprennent : les sociétés en nom collectif, les sociétés en commandite simple, les sociétés à responsabilité limitée, les sociétés anonymes et les sociétés par actions simplifiées.",
+    "article_source": "Article 6",
+    "acte": "societes_commerciales",
+    "version": "revisee",
+    "type": "naturelle"
+},
+{
+    "question": "Quelle capacité est requise pour qu'une personne exerce des activités commerciales professionnellement ?",
+    "ground_truth": "Nul ne peut accomplir des actes de commerce à titre de profession s'il n'est juridiquement capable d'exercer le commerce.",
+    "article_source": "Article 6",
+    "acte": "commercial_general",
+    "version": "revisee",
+    "type": "naturelle"
+},
+{
+    "question": "Quelles sont les activités considérées comme des actes de commerce par nature selon le droit commercial OHADA ?",
+    "ground_truth": "Les actes de commerce par nature incluent : l'achat de biens meubles ou immeubles en vue de leur revente ; les opérations de banque, de bourse, de change, de courtage, d'assurance et de transit ; les contrats entre commerçants pour les besoins de leur commerce ; l'exploitation industrielle des mines, carrières et gisements de ressources naturelles ; les opérations de location de meubles ; les opérations de manufacture, de transport et de télécommunication ; les opérations des intermédiaires de commerce ; et les actes accomplis par les sociétés commerciales.",
+    "article_source": "Article 3",
+    "acte": "commercial_general",
+    "version": "revisee",
+    "type": "naturelle"
+},
+{
+    "question": "Quelle est la durée maximale d'existence d'une société commerciale ?",
+    "ground_truth": "La durée de la société ne peut excéder quatre-vingt-dix-neuf ans (99 ans).",
+    "article_source": "Article 28",
+    "acte": "societes_commerciales",
+    "version": "revisee",
+    "type": "naturelle"
+},
+{
+    "question": "Comment les exigences relatives au statut de commerçant et à la formation des sociétés commerciales s'articulent-elles selon les actes uniformes OHADA ?",
+    "ground_truth": "Selon le droit commercial général, est commerçant celui qui fait de l'accomplissement d'actes de commerce par nature sa profession, et nul ne peut exercer le commerce sans en avoir la capacité juridique. Selon le droit des sociétés commerciales, la société commerciale est créée par un contrat entre associés et son caractère commercial est déterminé par sa forme ou son objet ; sont commerciales par la forme les sociétés en nom collectif, en commandite simple, à responsabilité limitée, anonymes et par actions simplifiées.",
+    "article_source": "Articles 2 et 6 (commercial_general), Articles 4 et 6 (societes_commerciales)",
+    "acte": "multi",
+    "version": "revisee",
+    "type": "multi_actes"
+},
+{
+    "question": "Quel est le lien entre la preuve des actes de commerce et les obligations comptables des commerçants en droit OHADA ?",
+    "ground_truth": "Les actes de commerce peuvent se prouver par tous moyens, y compris par voie électronique, à l'égard des commerçants. Les livres de commerce régulièrement tenus peuvent être admis par le juge pour constituer une preuve. Tout commerçant doit tenir ses livres de commerce conformément aux dispositions de l'Acte uniforme relatif à l'organisation et à l'harmonisation des comptabilités des entreprises.",
+    "article_source": "Articles 5 et 13",
+    "acte": "commercial_general",
+    "version": "revisee",
+    "type": "multi_articles"
+},
+{
+    "question": "Comment les dispositions concernant les apports en capital et la responsabilité des associés se combinent-elles dans le droit OHADA des sociétés commerciales ?",
+    "ground_truth": "Chaque associé doit faire un apport à la société et reçoit en contrepartie des titres sociaux représentant ses droits. Les mineurs et les majeurs incapables ne peuvent être associés d'une société dans laquelle ils seraient tenus des dettes sociales au-delà de leurs apports. Des époux ne peuvent être associés d'une société dans laquelle ils seraient tenus des dettes sociales indéfiniment ou solidairement.",
+    "article_source": "Articles 37, 51, 8 et 9",
+    "acte": "societes_commerciales",
+    "version": "revisee",
+    "type": "multi_articles"
+},
+{
+    "question": "Quelles sont les distinctions juridiques clés entre les différentes formes d'apports de capital dans la formation d'une société commerciale ?",
+    "ground_truth": "Il existe trois types d'apports : les apports en numéraire, réalisés par le transfert de sommes d'argent et libérés intégralement à la constitution ; les apports en nature, réalisés par le transfert de droits réels ou personnels et la mise à disposition effective des biens, libérés intégralement à la constitution ; et les apports en industrie, consistant en connaissances techniques ou professionnelles ou en services. Les apports en industrie sont interdits dans les sociétés anonymes ; les droits de vote qui y sont attachés ne peuvent dépasser 25 % de l'ensemble des droits de vote, et la part totale attachée à ces titres ne peut excéder 25 % des bénéfices, de l'actif net et des pertes.",
+    "article_source": "Articles 40, 41, 45, 50-1 et 50-3",
+    "acte": "societes_commerciales",
+    "version": "revisee",
+    "type": "multi_articles"
+},
+{
+    "question": "Comment la définition du commerçant a-t-elle changé entre les versions 1997 et 2010 du droit commercial général OHADA ?",
+    "ground_truth": "Dans la version de 1997, étaient commerçants ceux qui accomplissaient des actes de commerce et en faisaient leur profession habituelle. Dans la version révisée de 2010, est commerçant celui qui fait de l'accomplissement d'actes de commerce par nature sa profession. La révision met désormais l'accent sur les actes de commerce par nature plutôt que sur le critère de la profession habituelle.",
+    "article_source": "Article 2",
+    "acte": "commercial_general",
+    "version": "comparaison",
+    "type": "comparaison_version"
+},
+{
+    "question": "Quel changement a été apporté au droit OHADA des sociétés commerciales concernant les apports en industrie entre 1997 et 2014 ?",
+    "ground_truth": "Dans la version de 1997, l'apport en industrie était décrit comme un apport de main d'œuvre. Dans la version révisée de 2014, l'apport en industrie est défini comme l'apport de connaissances techniques ou professionnelles ou de services. La version de 2014 a en outre ajouté les articles 50-1 à 50-4, qui n'existaient pas en 1997 et qui notamment interdisent les apports en industrie dans les sociétés anonymes et limitent à 25 % les droits de vote et la part des bénéfices, de l'actif net et des pertes attachés à ces apports.",
+    "article_source": "Article 40 et Articles 50-1 à 50-4",
+    "acte": "societes_commerciales",
+    "version": "comparaison",
+    "type": "comparaison_version"
+},
+{
+    "question": "Comment le délai de prescription de l'action en responsabilité des fondateurs a-t-il changé entre les versions 1997 et 2014 du droit des sociétés commerciales ?",
+    "ground_truth": "Dans la version de 1997, l'action en responsabilité prévue aux articles 78 et 79 se prescrivait par cinq ans à compter, selon le cas, du jour de l'immatriculation de la société ou de la publication de l'acte modifiant les statuts. Dans la version révisée de 2014, ce délai a été réduit à trois ans, à compter des mêmes événements.",
+    "article_source": "Article 80",
+    "acte": "societes_commerciales",
+    "version": "comparaison",
+    "type": "comparaison_version"
+},
+{
+    "question": "Quelle différence existe-t-il dans le moment de la constitution de la société entre les versions 1997 et 2014 du droit OHADA des sociétés commerciales ?",
+    "ground_truth": "Dans la version de 1997, la société était constituée à compter de la signature de ses statuts. Dans la version révisée de 2014, la société est constituée à compter de la signature de ses statuts ou, le cas échéant, de leur adoption par l'assemblée générale constitutive. Dans les deux versions, avant l'immatriculation, l'existence de la société n'est pas opposable aux tiers, mais ceux-ci peuvent s'en prévaloir.",
+    "article_source": "Article 101",
+    "acte": "societes_commerciales",
+    "version": "comparaison",
+    "type": "comparaison_version"
+}
+]

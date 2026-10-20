@@ -17,4 +17,5 @@ class Settings():
     POSTGRES_DB = os.getenv("POSTGRES_DB","ohada")
     POSTGRES_PORT = os.getenv("POSTGRES_PORT","5432")
     POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD")
+    OPENROUTER_API_KEY=os.getenv("OPENROUTER_API_KEY")
 settings = Settings()
